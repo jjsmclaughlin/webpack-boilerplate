@@ -1,13 +1,13 @@
-//import _ from 'lodash';
+
+import css from "./index.css";
 
 function component() {
-  const element = document.createElement('div');
 
-  // Lodash, now imported by this script
-  //element.innerHTML = _.join(['Hello', 'webpack'], ' ');
-  element.innerHTML = '<b>Hello, world!</b>';
+  const element = document.createElement('div');
+  element.innerHTML = '<p>Hello, world!</p>';
 
   return element;
+
 }
 
 document.body.appendChild(component());
